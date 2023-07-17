@@ -1,10 +1,18 @@
 <header>
   <h1>{{ title }}</h1>
   <nav>
-    <a routerLink="./hello-world" routerLinkActive="st-active">Hello World</a>
-    <a routerLink="./profile" routerLinkActive="st-active">Profile</a>
-    <a routerLink="./friend" routerLinkActive="st-active">Friend</a>
-    <a routerLink="./status" routerLinkActive="st-active">Status</a>
+    <a class="nav-list" routerLink="./hello-world" routerLinkActive="st-active"
+      ><span class="material-symbols-outlined"> public </span>Hello World</a
+    >
+    <a class="nav-list" routerLink="./profile" routerLinkActive="st-active"
+      ><span class="material-symbols-outlined"> person </span>Profile</a
+    >
+    <a class="nav-list" routerLink="./friend" routerLinkActive="st-active"
+      ><span class="material-symbols-outlined"> group </span>Friend</a
+    >
+    <a class="nav-list" routerLink="./status" routerLinkActive="st-active"
+      ><span class="material-symbols-outlined"> info </span>Status</a
+    >
   </nav>
 </header>
 
